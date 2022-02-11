@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap');
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #ff3253;
+}
+
+.fluid-container{
+    padding: 3% 15% 9%;
+}
+
+
+.title-heading{
+    line-height: 1.5;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.dog-image{
+    width:23%;
+    transform: rotate(17deg); 
+    position: absolute;
+    right: 22%;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Navabar  */
+
+.container-fluid{
+    padding-left: 0;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 15px;
+    font-size: 1.2rem;
+}
+
+/* Feature Section */
+
+#features{
+    padding: 3% 6%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    margin: 11% 0 9%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    cursor: pointer;
+    padding: 0 0 3%;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.big-heading{
+    font-weight: bold;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;    
+    color: white;
+}
+
+#features p{
+    width: 60%;
+    margin: auto;
+    font-weight: 300;
+}
+
+
+/* Testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press_image{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 2% 4%;
+}
+
+/* Call to Action  */
+
+#cta{
+    text-align: center;
+    background: #ff4c68;
+    padding: 7% 19%;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social_media i{
+    padding: 0 0.52rem 0.9rem;
+}
+
+.footer-text {
+    opacity: 0.8;
+    font-size: 1rem;
+    word-spacing: 5px;
+}
+
+/* Media Query Breakpoint */
+
+@media (max-width:1020px){
+
+    .dog-image{
+        position: static;
+        width: 50%;
+        transform: rotate(0);
+    }
+
+    .row{
+        text-align: center;
+    }
+
+}
